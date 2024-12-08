@@ -1,0 +1,36 @@
+<link rel="stylesheet" href="style.css">
+<body>
+<h4>Contact us</h4><br>
+<p>
+    We will love to hear from you! Whether you have an advise, question, comment or just want to say <i>hello</i>, please don't hesitate to reach out.
+</p>
+<h2>Please get in touch with us.</h2><br><br>
+    <div class="form-container">
+        <form id="contactForm" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+                <label for="country">Country <i>optional</i>:</label><br>
+                <input type="text" id="country" name="country" placeholder="Country">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"required placeholder="Your email address">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required placeholder="Your message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    </div>
+    <hr style="color: rgba(0, 0, 0, 0.103); text-align: center; width: 100%;"></hr><br>
+<p id="end"><b>2025 &copy;</b> cloRax Website | All Right Reserve.</p>
+
+<script src="script.js"></script>
+</body>

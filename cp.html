@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="style.css">
+<body>
+    <p id="small">⚠️ Please Provide a Valid Password</p><br><br>
+    <input type="password" id="password"><br><br>
+    <button onclick="checkPassword()" class="submit-btn">Enter</button><br><br>
+    <a id="protected-link" class="library-links" href="coding.html" style="display: none;">Beautiful Coding Tutorials</a>
+<script>
+    function checkPassword() {
+        var password = document.getElementById("password").value;
+        if (password ==="112567") {
+          document.getElementById("protected-link").style.display = "block";
+          document.getElementById("protected-link").href ="coding.html";
+        }
+        else{
+          alert("😂 Incorrect Password");
+        }
+      }
+    </script>
+</body>
